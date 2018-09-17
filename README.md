@@ -16,11 +16,7 @@ scss module example :
 ```javascript
 import * as React from 'react';
 import cls from './app.scss';
-const App =()=> (
-	<div className= {cls.App}>
-		<h2>hallo all <h2/>
-	</div>
-)
+const App =()=> <div className= {cls.App}><h2>hallo all <h2/></div>
 ```
 and in the app.scss 
 ```css
